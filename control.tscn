@@ -1,0 +1,53 @@
+[gd_scene load_steps=2 format=3 uid="uid://bt4ctd2ov7x6x"]
+
+[ext_resource type="Script" uid="uid://yqaxkjqcsjvs" path="res://control.gd" id="1_0fbet"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 1.0
+offset_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_0fbet")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 22.0
+offset_top = 16.0
+offset_right = 82.0
+offset_bottom = 39.0
+theme_override_font_sizes/font_size = 0
+text = "Жизни:"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="LabelLiveCount" type="Label" parent="."]
+layout_mode = 0
+offset_left = 86.0
+offset_top = 17.0
+offset_right = 126.0
+offset_bottom = 40.0
+theme_override_font_sizes/font_size = 0
+text = "100"
+
+[node name="Label3" type="Label" parent="."]
+layout_mode = 0
+offset_left = 126.0
+offset_top = 17.0
+offset_right = 201.0
+offset_bottom = 40.0
+theme_override_font_sizes/font_size = 0
+text = "Яблочки:"
+
+[node name="LabelAppleCount" type="Label" parent="."]
+layout_mode = 0
+offset_left = 201.0
+offset_top = 18.0
+offset_right = 241.0
+offset_bottom = 67.0
+theme_override_font_sizes/font_size = 0
+text = "0
+"
